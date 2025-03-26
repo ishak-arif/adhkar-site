@@ -1,27 +1,15 @@
-{% extends 'base.html' %}
+{% extends 'base.html' %} 
 
-{% block title %}
-    Home
-{% endblock %}
+{% block title %} Home {% endblock %} 
 
 {% block content %}
+
     <h1>Select what adhkar you want to read</h1>
     <p>May it be beneficial to you.</p>
 
-    <div>
-        <button type="button" class="btn btn-dark">Morning</button>
-    </div>
-
-    <div>
-        <button type="button" class="btn btn-dark">Evening</button>
-    </div>
-
-    <div>
-        <button type="button" class="btn btn-dark">After salah</button>
-    </div>
-    
-    <div>
-        <button type="button" class="btn btn-dark">Before sleep</button>
-    </div>
+    <button>Morning</button>
+    <button>Evening</button>
+    <button>After salah</button>
+    <button>Before sleep</button>
 
 {% endblock %}
